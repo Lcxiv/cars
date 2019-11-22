@@ -4,7 +4,7 @@
 ### Dr. Fahy
 
 
-This repository contains a *bash* *script* named **cars.sh** that will **help** a user **maintain an _inventory_** of old cars.
+This repository contains a *bash* *script* named **cars.sh** that will **help** a user **maintain an _inventory_** of old cars. A file is included to have cars references to pass as well. 
  
 The user will be presented with a menu of **three _options_**:
 
