@@ -3,7 +3,7 @@
 # Louis Condevaux
 
 
-while [ true ]
+while 'true'
 do
 echo "Choose from these options: 1. Enter a new car. 2. Display the list of cars. 3. Exit." 
 read number
@@ -18,7 +18,7 @@ case "$number" in
 	read Make
 	echo "Enter the Model:"
 	read Model
-	echo $Year ":" $Make ":" $Model  >> My_old_cars
+	echo "$Year" ":" "$Make" ":" "$Model"  >> My_old_cars
 	;;
  "2")
 	sort My_old_cars
